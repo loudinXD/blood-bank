@@ -1,0 +1,3 @@
+list ports: sudo lsof -i -P -n
+kill ports: sudo lsof -i :80
+start xamp: sudo /opt/lampp/lampp start

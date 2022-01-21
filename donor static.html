@@ -1,0 +1,36 @@
+<html>
+    <head><title>BLOOD BANK</title></head>
+    <!DOCTYPE html> 
+    <html>
+    <style>
+        body {
+            background-image:
+                url("bg.png");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+    <body>
+        <center><h1>DONOR REGISTRATION FORM</h1></center>
+        <form action="donor static.php" method="post">
+            <center><b>Create donor's id:<input type="text" name="Id" required /></b></center><br />
+            <center><b>Enter donor's name:<input type="text" name="Name" required /></b></center><br />
+            <center><b>
+                    <p>Enter gender:</p>
+                </b>
+                <b><input type="radio" name="gdr" value="male">MALE</b>
+                <b><input type="radio" name="gdr" value="female">FEMALE</b>
+            </center>
+            <center><b>Enter your birth-date:<input type="date" name="birth" required /></b></center></br>
+            <center><b>Enter address:<input type="text" name="Address" required /></b></center><br />
+            <center><b>Enter your phone number:<input type="text" name="Mobile_no" pattern="[0-9]{10}" required></b>
+            </center><br />
+            <center><b>Enter your Email:<input type="text" name="Email" required /></b></center><br />
+            <!-- <center><b>Create a new password:<input type="password" name="pwd" required /></b></center><br />             -->
+            <center><b>Enter blood broup:<input type="text" name="bg" required /></b></center><br />
+            <center><input type="submit" value="submit"></center><br />
+        </form>
+    </body>
+
+    </html>

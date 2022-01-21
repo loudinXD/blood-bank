@@ -1,0 +1,35 @@
+<!DOCTYPEhtml>
+        <html>
+        <head> <title>BLOOD BANK</title></head>
+        <!DOCTYPE html>
+        <html>
+        <style>
+                body {
+                        background-image:
+                                url("bg.png");
+                        background-repeat: no-repeat;
+                        background-attachment: fixed;
+                        background-size: cover;
+                }
+        </style>
+        <body>
+                <center><h1>EMPLOYEE REGISTRATION FORM</h1></center>
+                <form action="employee.php" method="post">
+                        <center><b>Enter the id:<input type="text" name="Id"  required /></b></center><br />
+                        <center><b>Enter your name:<input type="text" name="Name" required /></b></center><br />
+                        <center><b>Enter your address:<input type="text" name="Address" required /></b></center><br />
+                        <center><b>Enter your birth-date:<input type="date" name="Birth" required /></b></center>
+                        <center><b><p>Enter your gender:</p></b>
+                                <b><input type="radio" name="Gdr" value="male">MALE</b>
+                                <b><input type="radio" name="Gdr" value="female">FEMALE</b>
+                        </center></br>
+                        <center><b>Enter your phone number:<input type="text" name="Mobile_no" pattern="[0-9]{10}"></b></center><br />
+                        <center><b>Enter designation:<input type="text" name="Designation"></b></center><br />
+                        <center><b>Enter your Email:<input type="text" name="Email" required /></b></center><br />
+                        <center><b>Create a new password:<input type="password" name="Pwd" required /></b></center><br />
+
+                        <center><input type="submit" value="submit"></center>
+                        <br />
+                </form>
+        </body>
+        </html>
