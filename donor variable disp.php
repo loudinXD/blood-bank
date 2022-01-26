@@ -1,9 +1,9 @@
-<</p><?php
+<?php
 $mysql_id=mysqli_connect("localhost","root","","bloodbank_db");
 //$mysql_id=include('conn.php')
 
 
-$query="SELECT * FROM `DONOR_STATIC`; ";
+$query="SELECT * FROM `DONOR_VARIABLE`; ";
 $res=mysqli_query($mysql_id,$query);
 if($res->num_rows>0)
 {

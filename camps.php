@@ -1,7 +1,7 @@
 <?php
 $mysql_id=mysqli_connect("localhost","root","","bloodbank_db");
 
-$Camp_Id=$POST['C_Id'];
+$Camp_Id=$_POST['C_Id'];
 $Emp_Id=$_POST['E_id'];
 $Location=$_POST['location'];
 $Name=$_POST['Name'];
@@ -12,7 +12,7 @@ if($res>0)
 	{
 		echo "Successfull";
 	?>
-	<!-- <meta http-equiv="refresh" content="2;url=camps disp.php"/> -->
+	<meta http-equiv="refresh" content="2;url=camps disp.php"/>
 	<?php 
 	}
 	else

@@ -21,12 +21,14 @@
         <a href="camps disp.php">CAMPS DONE TILL NOW</a><br><br>
 
         <a href="donor static.html">CREATE A NEW ACCOUNT FOR DONOR</a><br>
+        <a href="up doner.php">UPDATE DONOR</a><br>
         <a href="donor static disp.php">DISPLAY DONOR ACCOUNTS</a><br><br>
 
         <a href="donor variable.html">FORM TO DONATE BLOOD</a><br>
         <a href="donor variable disp.php">BLODD DONATIONS TILL DATE</a><br><br>
 
         <a href="receiver static.html">CREATE A NEW ACCOUNT FOR BLOOD RECEIVER</a><br>
+        <a href="up receiver.php">UPDATE RECEIVER</a><br>
         <a href="receiver static disp.php">BLOOD RECEIVER ACCOUNTS</a><br><br>
         
         <a href="receiver variable.html">FORM TO RECEIVE BLOOD</a><br>

@@ -1,43 +1,40 @@
-<!DOCTYPEhtml>
-    <html>
+<html>
 
-    <head>
+<head>
 
-        <title>BLOOD BANK</title>
-    </head>
+    <title>BLOOD BANK</title>
+</head>
+<!DOCTYPE html>
+<html>
+<style>
+    body {
+        background-image:
+            url("bg.png");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+</style>
 
+<body>
+    <center>
+        <h1>DONOR REGISTRATION FORM</h1>
+    </center>
+    <form action="donor variable.php" method="post">
 
-    <!DOCTYPE html>
-    <html>
-    <style>
-        body {
-            background-image:
-                url("bg.png");
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: cover;
-        }
-    </style>
+        <center><b>Enter donor's id:<input type="text" name="Id" required /></b></center><br />
+        <center><b>Enter camp id:<input type="text" name="C_Id" required /></b></center><br />
 
-    <body>
-        <center>
-            <h1>DONOR REGISTRATION FORM</h1>
-        </center>
-        <form action="donor variable.php" method="post">
+        <center><b>Enter employee's id:<input type="text" name="E_id" required /></b></center><br />
+        <center><b>Enter weight:<input type="text" name="weight" /></b></center></br>
+        <center><b>Enter last blood donated date:<input type="date" name="last_donated" required /></b></center><br />
+        <center><b>Enter the times blood is donated:<input type="text" name="times" required></b>
+        </center><br />
+        <center><b>Enter donation date:<input type="date" name="d_date" required /></b></center><br />
+        <!-- <center><b>Create a new password:<input type="password" name="pwd" required /></b></center><br />             -->
+        <center><b>Enter health issues:<input type="text" name="issues" required /></b></center><br />
+        <center><input type="submit" value="submit"></center><br />
+    </form>
+</body>
 
-            <center><b>Enter donor's id:<input type="text" name="Id" required /></b></center><br />
-            <center><b>Enter camp id:<input type="text" name="C_Id" required /></b></center><br />
-            
-            <center><b>Enter employee's id:<input type="text" name="E_id" required /></b></center><br />
-            <center><b>Enter weight:<input type="text" name="weight"  /></b></center></br>
-            <center><b>Enter last blood donated date:<input type="date" name="last_donated" required /></b></center><br />
-            <center><b>Enter the times blood is donated:<input type="text" name="times"  required></b>
-            </center><br />
-            <center><b>Enter donation date:<input type="date" name="d_date" required /></b></center><br />
-            <!-- <center><b>Create a new password:<input type="password" name="pwd" required /></b></center><br />             -->
-            <center><b>Enter health issues:<input type="text" name="issues" required /></b></center><br />
-            <center><input type="submit" value="submit"></center><br />
-        </form>
-    </body>
-
-    </html>
+</html>
