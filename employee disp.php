@@ -8,6 +8,14 @@ if($res->num_rows>0)
 <html>
 	<title><head>Fetch from database</head></title>
 <body>
+<link rel="stylesheet" href="common.css">
+        <div class="nav">
+                <div class="topnav">
+                        <a class="active" href="welcome.html">Home</a>
+                        <a href="contact.html">Contact</a>
+                         
+                </div>
+        </div>
 	<table align ="center" border="1px" style ="width:600px; line-height:30px;">
 		<tr>
 			<th colspan = "9"><h2>INVENTORY</h2></th>

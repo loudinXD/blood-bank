@@ -9,9 +9,33 @@ if($res->num_rows>0)
 {
 ?>
 <html>
-	<title><head>Fetch from database</head></title>
+<link rel="stylesheet" href="common.css">
+        <div class="nav">
+                <div class="topnav">
+                        <a class="active" href="welcome.html">Home</a>
+                        <a href="contact.html">Contact</a>
+                         
+                </div>
+        </div>
+		<style>body {
+        background-image:
+            url("images/8.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+	h1 {
+        color: aquamarine;
+        text-align: center;
+        background-color: black;
+        height: 50px;
+        opacity:0.8;
+        width :800px;
+
+    }</style>
+	<center><h1  align ="center" >Received blood data</h1></center>
 <body>
-	<table align ="center" border="1px" style ="width:600px; line-height:30px;">
+	<table align ="center" border="1px"  style ="color:yellow;background-color:black;opacity:0.7; line-height:30px; line-height:30px;">
 		<tr>
 			<th colspan = "8"><h2>INVENTORY</h2></th>
 		</tr>

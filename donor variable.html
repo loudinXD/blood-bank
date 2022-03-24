@@ -9,7 +9,7 @@
 <style>
     body {
         background-image:
-            url("bg.png");
+            url("images/13.jpg");
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
@@ -17,11 +17,21 @@
 </style>
 
 <body>
+    <link rel="stylesheet" href="common.css">
+        <div class="nav">
+                <div class="topnav">
+                        <a class="active" href="welcome.html">Home</a>
+                        <a href="contact.html">Contact</a>
+                         
+                </div>
+        </div>
+        <br>
     <center>
-        <h1>DONOR REGISTRATION FORM</h1>
+        <h1 style="color:rgb(104, 48, 156); background-color:black;opacity:0.8;width:800px;align-items: center;">BLOOD DONATING FORM</h1>
     </center>
-    <form action="donor variable.php" method="post">
-
+    
+   <center> <form style="color:blueviolet; background-color:black;opacity:0.95;width:800px;align-items: center;" action="donor variable.php" method="post">
+<br><br>
         <center><b>Enter donor's id:<input type="text" name="Id" required /></b></center><br />
         <center><b>Enter camp id:<input type="text" name="C_Id" required /></b></center><br />
 
@@ -31,10 +41,22 @@
         <center><b>Enter the times blood is donated:<input type="text" name="times" required></b>
         </center><br />
         <center><b>Enter donation date:<input type="date" name="d_date" required /></b></center><br />
-        <!-- <center><b>Create a new password:<input type="password" name="pwd" required /></b></center><br />             -->
         <center><b>Enter health issues:<input type="text" name="issues" required /></b></center><br />
+        <center><b>Enter blood type:<select name = "blood_type">
+            <option selected>TYPE</option>
+            <option value = "A+">A+</option>
+            <option value = "A-">A-</option>
+            <option value = "B+">B+</option>
+            <option value = "B-">B-</option>
+            <option value = "AB+">AB+</option>
+            <option value = "AB-">AB-</option>
+            <option value = "O+">O+</option>
+            <option value = "O-">O-</option>
+         </select></b></center><br />
+        <center><b>Enter donated blood quantity :<input type="text" name="quant" required /></b></center><br />
         <center><input type="submit" value="submit"></center><br />
-    </form>
+    <br><br></form>
+</center>
 </body>
 
 </html>

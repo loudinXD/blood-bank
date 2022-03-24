@@ -17,7 +17,7 @@ if($res>0)
 {
 	echo "Successfull";
 ?>
-<meta http-equiv="refresh" content="2;url=employee entry.php"/>
+<meta http-equiv="refresh" content="2;url=employee entry.html"/>
 <?php }
 else
 	echo "Value not inserted".$mysql_id->error;

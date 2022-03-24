@@ -1,4 +1,4 @@
-<</p><?php
+<?php
 $mysql_id=mysqli_connect("localhost","root","","bloodbank_db");
 //$mysql_id=include('conn.php')
 
@@ -9,15 +9,34 @@ if($res->num_rows>0)
 {
 ?>
 <html>
+<style>
+                        body {
+                                background-image: url('images/5.jpg');
+                                background-repeat: no-repeat;
+                                background-attachment: fixed;
+                                background-size: cover;
+                        }
+						
+                </style>
+<link rel="stylesheet" href="common.css">
+        <div class="nav">
+                <div class="topnav">
+                        <a class="active" href="welcome.html">Home</a>
+                        <a href="contact.html">Contact</a>
+                </div>
+        </div><br><br>
 	<title><head>Fetch from database</head></title>
 <body>
-	<table align ="center" border="1px" style ="width:600px; line-height:30px;">
+	<div class='tab'>
+	<table align ="center" border="2px" ; style ="width:600px; line-height:30px;background-color:yellow;
+        opacity:0.4;
+        align-items: center;">
 		<tr>
 			<th colspan = "4"><h2>INVENTORY</h2></th>
 		</tr>
 		<tr>
-			<th>TYPE</th>
-			<th>QUANTITY</th>
+			<th>BLOOD TYPE</th>
+			<th>QUANTITY (ML)</th>
 		</tr>
 	<?php
 		while($rows=mysqli_fetch_assoc($res))
@@ -31,6 +50,7 @@ if($res->num_rows>0)
 		}
 		?>
 	</table>
+	</div>
 </body>
 </html>
 <?php

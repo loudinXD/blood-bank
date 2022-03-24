@@ -8,10 +8,24 @@ if($res->num_rows>0)
 <html>
 	<title><head>Fetch from database</head></title>
 <body>
-	<table align ="center" border="1px" style ="width:600px; line-height:30px;">
-		<tr>
-			<th colspan = "8"><h2>INVENTORY</h2></th>
-		</tr>
+<style>body {
+        background-image:
+            url("images/10.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }</style>
+<link rel="stylesheet" href="common.css">
+        <div class="nav">
+                <div class="topnav">
+                        <a class="active" href="welcome.html">Home</a>
+                        <a href="contact.html">Contact</a>
+                         
+                </div>
+        </div><br><br>
+		<h1 align='center'>RECEIVER ACCOUNTS INFORMATION</h1>
+	<table align ="center" border="1px" style ="color:yellow;background-color:black;opacity:0.7; line-height:30px; line-height:30px;">
+		
 		<tr>
 			<th>RECEIVER ID</th>
 			<th>RECEIVER NAME</th>

@@ -8,18 +8,17 @@
       <link rel="stylesheet" href="css/bootstrap.min.css">
       <link rel="stylesheet" href="css/bootstrap.css">
        <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+       <link rel="stylesheet" href="common.css">
        <style>
-       body{
-          margin:0;
-          padding:0;
-          background-image:url("2.jpg");
-          background-size: cover;
-          font-family: sans-serif;
-           }
-      .log{  width:1366px;
-          height:696px;
-          
-          }
+        body {
+                background-image: url('images/10.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+        }
+</style><style>
+       
+      
       .loginbox{  width: 320px;
           height: 300px;
           background: #000;
@@ -93,6 +92,13 @@
        </style>
   </head>
   <body>
+        <div class="nav">
+                <div class="topnav">
+                        <a class="active" href="welcome.html">Home</a>
+                        <a href="contact.html">Contact</a>
+                         
+                </div>
+        </div>
     <img class="log">
     <div class="loginbox">
     <h1>EMPLOYEE LOGIN</h1>
@@ -103,7 +109,8 @@
     <p> Password</p>
     <input type="password" name="pswd" placeholder="Enter Password"><br>
     <input type="submit" name="" value="Login">
-    <p><b><a href="employee.html" style="color:red" >Not yet registered.. Register here</a></b></p>
+    <p><b><a href="employee.html" style="color:rgb(27, 7, 7);font-size:18px"  >Not yet registered.. Register here</a></b></p>
+    <h3><a style="color:rgb(27, 7, 7);font-size:18px"  button href="up emp password.php">Forgot password</button></a>
     </form>
     </div>
   </body>

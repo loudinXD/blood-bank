@@ -1,0 +1,61 @@
+
+                .nav {
+                        margin: 0;
+                        font-family: Arial, Helvetica, sans-serif;
+                }
+
+                .topnav {
+                        overflow: hidden;
+                        background-color: #333;
+                }
+
+                .topnav a {
+                        float: left;
+                        color: #f2f2f2;
+                        text-align: center;
+                        padding: 14px 16px;
+                        text-decoration: none;
+                        font-size: 17px;
+                }
+
+                .topnav a:hover {
+                        background-color: #ddd;
+                        color: black;
+                }
+
+                .topnav a.active {
+                        background-color: #04AA6D;
+                        color: white;
+                }
+                #search {
+                        padding: 5px;
+                        font-size: 17px;
+                        border: 2px solid grey;
+                        border-radius: 9px;
+                    }
+                    a:link {
+                        text-decoration: none;
+                      }
+                      
+                      a:visited {
+                        text-decoration: none;
+                      }
+                      
+                      a:hover {
+                        text-decoration: underline;
+                      }
+                      
+                      a:active {
+                        text-decoration: underline;
+                      }
+                      
+                    .container {
+                        display:flex;
+                    }
+                    .fixed {
+                        
+                        width: 50%;
+                    }
+                    .flex-item {
+                        flex-grow: 1;
+                    }

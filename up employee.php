@@ -3,6 +3,21 @@
     <!DOCTYPE html> 
     <html>
     <body>
+    <link rel="stylesheet" href="common.css">
+        <div class="nav">
+                <div class="topnav">
+                        <a class="active" href="welcome.html">Home</a>
+                        <a href="contact.html">Contact</a>
+                         
+                </div>
+        </div><style>
+                        body {
+                                background-image: url('images/13.jpg');
+                                background-repeat: no-repeat;
+                                background-attachment: fixed;
+                                background-size: cover;
+                        }
+                </style>
                 <center><h1>EMPLOYEE UPDATION FORM</h1></center>
                 <form action="" method="post">
                         <center><b>Enter the id:<input type="text" name="Id"  required /></b></center><br />
